@@ -1,4 +1,4 @@
-# matlab_mfri
+# matlab_fmri
 Full pipeline for preprocessing. 
 This is a code to perform pre-processing step for analysing MRI, taken and slightly supplemented from https://github.com/ritcheym/fmri_misc/tree/master/batch_system. It includes:
 1. Initialize vars code, which create path to files. 
