@@ -7,7 +7,7 @@ addpath('E:\Busan\fMRI_analysis'); % add any necessary paths (e.g., to initializ
 % Specify variables
 outLabel = 'basic_pp'; %output label
 subjects = {'001' '002' '003' '004' '005'};
-batch_functions = {'job_stc' 'job_realign' 'job_segment'};
+batch_functions = {'job_stc' 'job_realign' 'job_segment' 'job_coreg' 'job_norm' ' job_norm_str' 'job_smooth' };
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
