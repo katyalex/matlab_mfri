@@ -33,9 +33,6 @@ T_h        	= array2table(corr_h, 'RowNames', corr_name2, 'VariableNames', corr_
 T_F        	= array2table(corr_F, 'RowNames', corr_name2, 'VariableNames', corr_name2);
 T_p        	= array2table(corr_p, 'RowNames', corr_name2, 'VariableNames', corr_name2);
 
-filename = 'patientdata.xlsx';
-%writetable(T,filename,'Sheet',1,'Range','D1')
-
 writetable( T_h, [corr_folder 'beta_' corr_net '_' corr_group '_' corr_run '.xls'], 'WriteVariableNames', true, 'WriteRowNames', true );
 writetable( T_F, [corr_folder 'F_' corr_net '_' corr_group '_' corr_run '.xls'], 'WriteVariableNames', true, 'WriteRowNames', true);
 writetable( T_p, [corr_folder 'p_' corr_net '_' corr_group '_' corr_run '.xls'], 'WriteVariableNames', true, 'WriteRowNames', true);
