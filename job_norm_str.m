@@ -10,7 +10,7 @@ matlabbatch{3}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('File Selector 
 matlabbatch{3}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('File Selector (Batch Mode): Selected Files (^brain)', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
 matlabbatch{3}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70
                                                           78 76 85];
-matlabbatch{3}.spm.spatial.normalise.write.woptions.vox = [2 2 2];
+matlabbatch{3}.spm.spatial.normalise.write.woptions.vox = [1 1 1];
 matlabbatch{3}.spm.spatial.normalise.write.woptions.interp = 4;
 matlabbatch{3}.spm.spatial.normalise.write.woptions.prefix = 'w';
 spm('defaults','fmri');
